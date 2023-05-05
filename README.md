@@ -18,4 +18,5 @@ Com as informações que você extrair da sua análise, desenhe um Diagrama ER p
 
 </details>
 
-![Untitled](https://user-images.githubusercontent.com/125493277/236571756-eebe7fc9-42e5-4270-8c4d-3efa28720de8.png)
+![Untitled](https://user-images.githubusercontent.com/125493277/236573861-006fe6a4-f41b-4932-ba75-93a3b762df5f.png)
+
