@@ -19,7 +19,7 @@ Com as informações que você extrair da sua análise, desenhe um Diagrama ER p
 
 ![Untitled](https://user-images.githubusercontent.com/125493277/236573861-006fe6a4-f41b-4932-ba75-93a3b762df5f.png)
 
-### <sumary> 2. Após a primeira versão do projeto de banco de dados para o sistema hospitalar, notou-se a necessidade de expansão das funcionalidades, incluindo alguns requisitos essenciais a essa versão do software. As funcionalidades em questão são para o controle na internação de pacientes. Será necessário expandir o Modelo ER desenvolvido e montar o banco de dados, criando as tabelas para o início dos testes. </sumary>
+### <sumary> 2. Expandindo o Modelo ER desenvolvido, montando o banco de dados e criando as tabelas para o início dos testes. </sumary>
 
 <details>
 No hospital, as internações têm sido registradas por meio de formulários eletrônicos que gravam os dados em arquivos. 
@@ -61,6 +61,7 @@ CREATE TABLE `Medico` (
   `email` varchar(255),
   `data_formacao` date,
   `crm` varchar(12),
+   `area_atuacao` varchar,
   `especialidade` varchar(12),
   `cpf` int(11),
   `created_at` timestamp
@@ -149,4 +150,4 @@ CREATE TABLE `Enfermeiro` (
  ```
 #### Código e diagrama no [dbdiagram](https://dbdiagram.io/d/64556173dca9fb07c4977fa1)
 
-### <sumary> 3. . </sumary>
+### <sumary> 3. Alimentando o Banco de dados.</sumary>
